@@ -1,1 +1,94 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+em {
+    color: #0366d6;
+    font-style: normal;
+}
+
+h2 {
+    color: #3f3f40;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.text_link_container {
+    font-size: 1.2em;
+    display: flex;
+    margin: 8px 8px 20px 8px;
+    justify-content: center;
+}
+
+.text_link {
+    text-decoration: none;
+    color: cornflowerblue;
+    margin: 8px;
+    padding: 8px 15px 8px 15px;
+}
+
+.image {
+    margin: 25px 20px 0px 15px;
+}
+
+.image_description {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph_link {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#header {
+    padding-top: 0.8em;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+#description {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#image_container {
+    padding: 10px;
+    display: flex;
+}
+
+div > p {
+    padding: inherit;
+    margin: inherit;
+}
+
+#header > h1 {
+    font-weight: 500;
+    color: #24292e;
+    flex-wrap: wrap;
+    font-size: 3em;
+    text-align: center;
+    width: 600px;
+}
+
+#description > p {
+    text-align: center;
+    width: 850px;
+    color: #586069;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+.image_description > p {
+    font-size: 0.9em;
+    width: 22em;
+    color: #586069;
+}

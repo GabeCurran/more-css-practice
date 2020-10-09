@@ -1,1 +1,41 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(arial.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+hr {
+    margin-bottom: 1.5em;
+    height: 1px;
+    border: none;
+    background-color: #bfbfbf;
+}
+
+h1 {
+    color: #e47911;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#header_description {
+    font-size: 0.9em;
+    color: #888888;
+}
+
+#image_container {
+    display: flex;
+    flex-direction: column;
+}
