@@ -7,6 +7,7 @@ body {
 }
 
 em {
+    font-size: 1.05em;
     color: #0366d6;
     font-style: normal;
 }
@@ -33,11 +34,11 @@ h2 {
 }
 
 .image {
-    margin: 25px 20px 0px 15px;
+    margin: 25px 20px 0px 0px;
 }
 
 .image_description {
-    width: 500px;
+    width: 400px;
     margin: 0;
     padding: 0;
 }
@@ -63,6 +64,11 @@ h2 {
 #image_container {
     padding: 10px;
     display: flex;
+    justify-content: center;
+}
+
+#image1 {
+    margin-left: 100px;
 }
 
 div > p {
