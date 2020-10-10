@@ -35,3 +35,22 @@ a {
     padding: 0;
     margin: 5px;
 }
+
+#main_text {
+    width: 600px;
+}
+
+#image_container {
+    display: flex;
+    justify-content: center;
+}
+#header {
+    justify-content: center;
+    display: flex;
+}
+
+#text_container {
+    margin: 1em 2em 1em 2em;
+    display: flex;
+    justify-content: center;
+}
