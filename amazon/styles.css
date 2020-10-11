@@ -31,13 +31,18 @@ h2 {
     margin-bottom: 0;
 }
 
+img {
+    padding: 0 0 10px 6px;
+}
+
 .text {
     font-weight: bold;
+    display: block;
 }
 
 .book_container {
-    padding: 10px 10px 20px 10px;
-    width: 100%;
+    width: 250px;
+    padding: 10px 10px 30px 10px;
 }
 
 #header_description {
@@ -46,7 +51,7 @@ h2 {
 }
 
 #main_book_container {
-    display: flex;  
-    width: 50%;
+    display: flex; 
+    flex-wrap: wrap;
     flex-direction: row;
 }
