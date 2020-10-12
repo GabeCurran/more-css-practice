@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
     <head>
@@ -10,31 +11,54 @@
     </head>
 
     <body>
+        
+        <div>
+            <img src="Gray.png" alt="Gray" id='gray'/>
+            <h1><span>Book unique homes and experiences.</span></h1>
+        </div>
 
-        <h1>Book unique homes and experiences.</h1>
+        <p>WHERE</p>
+        <input type='text' placeholder="Anywhere">
 
+        
+        <div id="dates">
+            <div>
+                <p>CHECK IN</p>
+                <input type='date' placeholder="mm/dd/yyyy">
+            </div>
+            <div>
+                <p>CHECK OUT</p>
+                <input type='date' placeholder="mm/dd/yyyy">
+            </div>
+        </div>
+        
+        
+        <p>GUESTS</p>
+        <input type="number" placeholder="1 guest">
+        
+        <input type="submit" value="Search" id="search_button"
+               onclick="window.open('https://www.trivago.com/');">
 
-        Where
-        [Text Input]
-
-        Check In
-        [Date Input]
-
-        Check Out
-        [Date Input]
-
-        Guests
-        [Number Input]
-
-        <button id='search_button' type='button'>Search</button>
-        [Submit Input]
-
-
-        Explore Airbnb
-        Homes
-        Experiences
-        Restaurants
-
+        <h2>Explore Airbnb</h2>
+        
+        <div id='explore'>
+            
+            <div class='explore_item'>
+                <img src="https://via.placeholder.com/120x90" alt='Placeholder'/>
+                <span class="explore_text"><a href='#'>Homes</a></span>
+            </div>
+                
+            <div class='explore_item'> 
+                <img src="https://via.placeholder.com/120x90" alt='Placeholder'/>
+                <span class="explore_text"><a href='#'>Experiences</a></span>
+            </div>
+                
+            <div class='explore_item'>
+                <img src="https://via.placeholder.com/120x90" alt='Placeholder'/>
+                <span class="explore_text"><a href='#'>Restaurants</a></span>
+            </div>
+                
+        </div>
     
     </body>
     
